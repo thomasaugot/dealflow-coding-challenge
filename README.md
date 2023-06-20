@@ -66,6 +66,7 @@ Description: This endpoint to fetch a complete list of all freelancers.
 - It would be nice to improve error the handling in the `fetchFreelancers` function to provide the user with a feedback during the data fetching process.
 - The application isn't responsive and only works on desktop, which would be great to implement.
 - Write more complete tests.
+- Use CSS processors such as SCSS to improve styling method and make code reusable.
 - and probably many more... :)
 
 ## Performance Testing

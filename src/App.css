@@ -1,7 +1,29 @@
+body *,
+html * {
+  box-sizing: border-box;
+}
+
 .app {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: system-ui, segoe ui, Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.logo {
+  max-width: 30%;
+  border-style: none;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+.phone-image {
+  position: absolute;
+  z-index: 1;
+  width: 600px;
+  height: auto;
+  opacity: 0.8;
 }

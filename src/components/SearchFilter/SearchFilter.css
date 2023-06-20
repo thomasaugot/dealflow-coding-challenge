@@ -1,0 +1,11 @@
+.search-input {
+  border: solid 2px #c778d1;
+  padding: 10px;
+  border-radius: 20px;
+  width: 90%;
+  z-index: 10;
+}
+
+.search-input:active {
+  border: solid 2px #c778d1;
+}

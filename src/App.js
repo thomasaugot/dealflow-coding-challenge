@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FreelancerList from "./components/FreelancerList/FreelancerList";
 import { fakerEN as faker } from "@faker-js/faker";
+import "./App.css";
 
 const fetchFreelancers = async () => {
   try {
@@ -45,6 +46,11 @@ const App = () => {
 
   return (
     <div className="app">
+      <img
+        src="https://cdn.dorik.com/6004891a44afdb0011b84555/610faa2684b952001f122dee/images/Dealflow-name_m27ohleh.png"
+        alt="dealflow-logo"
+        className="logo"
+      />
       <FreelancerList freelancers={freelancers} />
     </div>
   );
