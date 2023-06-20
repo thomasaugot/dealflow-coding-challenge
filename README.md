@@ -4,6 +4,8 @@
 
 I built this app as my solution to Dealflow's coding challenge.
 
+Visit the deployed page at: https://dealflow-coding-challenge.netlify.app/
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -11,7 +13,8 @@ I built this app as my solution to Dealflow's coding challenge.
 - [Functionalities](#functionalities)
 - [API Reference](#api-reference)
 - [Good Practices Highlights](#good-practices-highlights)
-- [Possible bugs & improvements](#possible-bugs-&-improvements)
+- [Possible bugs and improvements](#possible-bugs-and-improvements)
+- [Performance Testing](#performance-testing)
 
 ## Installation
 
@@ -58,9 +61,21 @@ Description: This endpoint to fetch a complete list of all freelancers.
 - I have implemented error handling by catching and logging errors during the data fetching process.
 - I have used sementic HTML elements to structure the content of the app
 
-## Possible bugs & improvements
+## Possible bugs and improvements
 
 - It would be nice to improve error the handling in the `fetchFreelancers` function to provide the user with a feedback during the data fetching process.
 - The application isn't responsive and only works on desktop, which would be great to implement.
 - Write more complete tests.
 - and probably many more... :)
+
+## Performance Testing
+
+- I use Google Lighthouse
+- Open app in the browser and access Lighthouse from DevTool
+- Run performance Audit which evaluates various performance aspects, including load time, rendering, network requests, etc.
+- Generate a report and analyze how the report tells you to improve the app's performances
+- try several methods depending on what you're getting, eg. lazy-loading, etc
+
+<br/>
+
+Visit the deployed page at: https://dealflow-coding-challenge.netlify.app/

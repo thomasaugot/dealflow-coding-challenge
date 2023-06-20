@@ -6,7 +6,7 @@ const SearchFilter = ({ onSearchTermChange }) => {
     onSearchTermChange(searchTerm);
   };
 
-  return <input type="text" placeholder="Search" onChange={handleInputChange} />;
+  return <input type="text" placeholder="Find a Freelancer" onChange={handleInputChange} />;
 };
 
 export default SearchFilter;
