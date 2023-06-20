@@ -67,6 +67,7 @@ Description: This endpoint to fetch a complete list of all freelancers.
 - The application isn't responsive and only works on desktop, which would be great to implement.
 - Write more complete tests.
 - Use CSS processors such as SCSS to improve styling method and make code reusable.
+- Make each freelancer's item a reusable component
 - and probably many more... :)
 
 ## Performance Testing

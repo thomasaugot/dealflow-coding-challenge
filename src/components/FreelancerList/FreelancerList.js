@@ -112,8 +112,6 @@ const FreelancerList = ({ freelancers }) => {
                 href={`mailto:${freelancer.email}`}
                 onClick={() => handleGetInTouch(freelancer.email)}
                 className="contact-button"
-                onMouseOver={(e) => (e.target.style.transform = "scale(0.9)")}
-                onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
               >
                 Get in touch
               </a>
