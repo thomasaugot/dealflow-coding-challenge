@@ -10,6 +10,8 @@ I built this app as my solution to Dealflow's coding challenge.
 - [Usage](#usage)
 - [Functionalities](#functionalities)
 - [API Reference](#api-reference)
+- [Good Practices Highlights](#good-practices-highlights)
+- [Possible bugs & improvements](#possible-bugs-&-improvements)
 
 ## Installation
 
@@ -48,3 +50,17 @@ Endpoint <br/>
 URL: /api/freelancers <br/>
 Method: GET <br/>
 Description: This endpoint to fetch a complete list of all freelancers.
+
+## Good Practices Highlights
+
+- I have divided my code into separate components (App, SearchFilter, and FreelancerList), which improves maintainability and reusability.
+- I used React hooks (useState, useEffect) to manage state and side effects.
+- I have implemented error handling by catching and logging errors during the data fetching process.
+- I have used sementic HTML elements to structure the content of the app
+
+## Possible bugs & improvements
+
+- It would be nice to improve error the handling in the `fetchFreelancers` function to provide the user with a feedback during the data fetching process.
+- The application isn't responsive and only works on desktop, which would be great to implement.
+- Write more complete tests.
+- and probably many more... :)
