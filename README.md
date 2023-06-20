@@ -40,7 +40,7 @@ The app:
 
 - Fetches a list of DealFlow's freelancers (fake list, see [API Reference](#api-reference))
 - Displays this list
-- Filters freelancers by name
+- Filters freelancers by name or job title
 - Offers pagination and Chunks to optimize rendering (only loads what needs to be to avoid to many DOM elements)
 
 ## API Reference
