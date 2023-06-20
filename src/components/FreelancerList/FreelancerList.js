@@ -17,7 +17,8 @@ const FreelancerList = ({ freelancers }) => {
     const fullName = `${freelancer.firstName} ${freelancer.lastName}`;
     return (
       fullName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      freelancer.email.toLowerCase().includes(searchTerm.toLowerCase())
+      freelancer.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      freelancer.jobTitle.toLowerCase().includes(searchTerm.toLowerCase())
     );
   });
 
