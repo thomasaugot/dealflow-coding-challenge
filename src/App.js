@@ -19,6 +19,18 @@ const fetchFreelancers = async () => {
   }
 };
 
+// if the API was exisiting, I would have used:
+
+// const fetchFreelancers = async () => {
+//   try {
+//     const response = await axios.get("/freelancers");
+//     return response.data;
+//   } catch (error) {
+//     console.error("Error fetching freelancers:", error);
+//     return [];
+//   }
+// };
+
 const App = () => {
   const [freelancers, setFreelancers] = useState([]);
 

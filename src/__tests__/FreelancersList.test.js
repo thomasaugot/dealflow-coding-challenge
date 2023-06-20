@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import FreelancerList from "./FreelancerList";
+import FreelancerList from "../components/FreelancerList/FreelancerList";
+import "@testing-library/jest-dom/extend-expect";
 
 // Mock the freelancers data
 const mockFreelancers = [
