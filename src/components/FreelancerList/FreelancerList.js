@@ -4,9 +4,10 @@ import SearchFilter from "../SearchFilter/SearchFilter";
 
 const FreelancerList = ({ freelancers }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(50); // Set the number of items per page
+  const [itemsPerPage] = useState(50); // Set the number of items per page
   const [searchTerm, setSearchTerm] = useState("");
 
+  // search bar logic
   const handleSearchTermChange = (term) => {
     setSearchTerm(term);
   };
