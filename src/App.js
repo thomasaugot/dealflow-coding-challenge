@@ -4,8 +4,8 @@ import { fakerEN as faker } from "@faker-js/faker";
 
 const fetchFreelancers = async () => {
   try {
-    // Generate fake data
-    const data = Array.from({ length: 10 }).map((_, index) => ({
+    // Generate fake data (1000 data points)
+    const data = Array.from({ length: 1000 }).map((_, index) => ({
       id: index + 1,
       firstName: faker.name.firstName(),
       lastName: faker.name.lastName(),
