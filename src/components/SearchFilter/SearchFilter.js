@@ -10,7 +10,7 @@ const SearchFilter = ({ onSearchTermChange }) => {
   return (
     <input
       type="text"
-      placeholder="Find a Freelancer"
+      placeholder="Find a freelancer by name, job title, ..."
       onChange={handleInputChange}
       className="search-input"
     />

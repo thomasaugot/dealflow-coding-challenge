@@ -11,6 +11,7 @@ html * {
   text-align: center;
   font-family: system-ui, segoe ui, Helvetica, Arial, sans-serif;
   position: relative;
+  margin-inline: auto;
 }
 
 .logo {
@@ -20,10 +21,20 @@ html * {
   z-index: 10;
 }
 
-.phone-image {
+.thumbnails {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  z-index: 1;
-  width: 600px;
-  height: auto;
-  opacity: 0.8;
+  right: 160px;
+  top: 250px;
+}
+
+.thumbnails img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  border: 2px solid pink;
+  border-radius: 50%;
+  align-self: flex-end;
+  margin-bottom: 50px;
 }

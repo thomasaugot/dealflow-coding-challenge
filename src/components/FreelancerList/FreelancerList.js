@@ -106,6 +106,7 @@ const FreelancerList = ({ freelancers }) => {
             <div className="freelancer-name">
               {freelancer.firstName} {freelancer.lastName}
             </div>
+            <div className="freelancer-job">{freelancer.jobTitle}</div>
             <div>
               <a
                 href={`mailto:${freelancer.email}`}
